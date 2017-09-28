@@ -1,0 +1,178 @@
+﻿body
+{
+	width:90%;
+	margin:0 auto;
+}
+#my_header
+{
+	background-color: #dcdcdc;
+	color:#777777;
+	padding: 60px 200px ;
+}
+
+#logo
+{
+	min-width: 100px;
+	min-height: 100px;
+	background-color: #777777;
+	float: left;
+	margin-right: 15px;
+}
+#my_header ul
+{
+	list-style: none;
+	text-align: right;
+	font-family: OpenSans;
+	font-size: 20pt;
+	margin:0;
+	margin-top: -20px;
+}
+#my_header a
+{
+	color:#777777;
+	border-bottom: 1pt dashed #777777;
+}
+#header-menu
+{
+	background-color: #777777;
+}
+#header-menu ul
+{
+	text-align: center;
+	padding:20px 0px;
+	margin: 0;
+}
+#header-menu li
+{
+	display: inline-block;
+	padding:0px 20px;
+	border-right: 2px solid white;
+}
+#header-menu a
+{
+	color:white;
+	font-family: OpenSans;
+	font-size:16pt;
+}
+#header-menu a:hover
+{
+	text-decoration: underline;
+}
+#header-menu li:last-child
+{
+	border: none;
+}
+.slideshow-container
+{
+	position: relative;
+	margin: auto;
+}
+.prev, .next
+{
+	background-color: #dcdcdc;
+	color:black!important;
+	cursor: pointer;
+	position: absolute;
+	top:50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 12px;
+	color: white;
+	font-weight: bold;
+	font-size: 20pt;
+	transition: 0.6 ease;
+	border-radius: 0 3px 3px 0;
+	margin-left: 60pt;
+	margin-right: 60pt;
+}
+
+.next
+{
+	right:0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover
+{
+	background-color:  rgba(0,0,0,0,8);
+}
+.fade
+{
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name:fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+	from{opacity: .4}
+	to{opacity: 1}
+}
+@keyframes fade
+{
+		from{opacity: .4}
+	to{opacity: 1}
+}
+#left-menu
+{
+	text-align: center;
+		color:#777777;
+}
+#path a
+{
+	color:#777777;
+	text-decoration: underline;
+}
+.main-menu li
+{
+	text-align: left;
+}
+.main-menu li a
+{
+	color:#777777;
+}
+.sub-menu
+{
+	display: none;
+}
+.show
+{
+	display: block;
+}
+.sub-menu li
+{
+
+	list-style-type: disc!important;
+	margin-left: 2em;
+}
+.active
+{
+	text-decoration: underline;
+}
+.card
+{
+	background-color: #dcdcdc;
+	width:30%;
+	margin-right: 3%;
+	display: inline-block;
+}
+.pagination li.active
+{
+	background-color:white!important;
+}
+.pagination li.active a
+{
+	color:#444;
+	font-weight:bold;
+	font-size: 1.8rem;
+}
+#info
+{
+	margin-top:10px;
+	padding-top:20px;
+	border-top:1px solid #7f7f7f;
+	font-size:0.8rem;
+	font-family: Myriad Pro;
+	color:#7f7f7f;
+}
